@@ -1,0 +1,22 @@
+{
+  "name": "great-readme-generator",
+  "version": "1.0.0",
+  "description": "A great readme generator so you can spend more time on your application and less on your readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icecicle04/Great-README-Generator.git"
+  },
+  "keywords": [
+    "readme"
+  ],
+  "author": "Ali Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icecicle04/Great-README-Generator/issues"
+  },
+  "homepage": "https://github.com/icecicle04/Great-README-Generator#readme"
+}
