@@ -1,3 +1,12 @@
+//
+const fs = require("fs");
+const util = require("util");
+const axios = require("axios");
+
+const appendFileAsync = util.promisify(fs.appendFile);
+const readFileAsync = util.promisify(fs.readFile);
+const writeFileAsync = util.promisify(fs.writeFile);
+
 // array of questions for user
 const questions = [];
 
