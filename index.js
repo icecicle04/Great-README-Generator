@@ -35,7 +35,7 @@ const questionsArray = [
   { type: "input", message: "Installation", name: "installation" },
   { type: "input", message: "Usage", name: "usage" },
   { type: "input", message: "License", name: "license" },
-  { type: "input", message: "Contributors", name: "contributing" },
+  { type: "input", message: "Contributors", name: "contributors" },
   { type: "input", message: "Tests", name: "tests" },
   { type: "input", message: "Questions", name: "questions" },
 ];
@@ -57,7 +57,3 @@ function init() {
 
 // function call to initialize program
 init();
-
-// inquirer.prompt(questionsArray).then(function (response) {
-//   console.log(Response);
-// });
