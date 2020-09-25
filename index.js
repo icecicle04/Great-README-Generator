@@ -6,20 +6,35 @@ const generateMarkdown = require("/Users/ak/gt-ft/sandbox/homework/Great-README-
 
 // const appendFileAsync = util.promisify(fs.appendFile);
 // const readFileAsync = util.promisify(fs.readFile);
-const writeFileAsync = util.promisify(fs.writeFile);
+// const writeFileAsync = util.promisify(fs.writeFile);
 
 // array of questions for user
 const questionsArray = [
-  { type: "input", message: "What is your name?", name: "name" },
-  { type: "input", message: "Where are you from?", name: "hometown" },
-  { type: "input", message: "What is your favorite hobby?", name: "hobby" },
-  { type: "input", message: "What is your favorite food?", name: "food" },
-  { type: "input", message: "What is your GitHub username?", name: "github" },
-  { type: "input", message: "What is your LinkedIn URL?", name: "linkedin" },
+  { type: "input", message: "Title", name: "title" },
+  { type: "input", message: "Description", name: "description" },
+  {
+    type: "checkbox",
+    message: "Table of Contents",
+    name: "tableOfContents",
+    choices: [
+      "Installation",
+      "Usage",
+      "License",
+      "Contributors",
+      "Tests",
+      "Questions",
+    ],
+  },
+  { type: "input", message: "Installation", name: "installation" },
+  { type: "input", message: "Usage", name: "usage" },
+  { type: "input", message: "License", name: "license" },
+  { type: "input", message: "Contributors", name: "contributing" },
+  { type: "input", message: "Tests", name: "tests" },
+  { type: "input", message: "Questions", name: "questions" },
 ];
 
 // function to write README file
-function writeToFile(fileName, response) {
+function writeToFile(response) {
   fs.writeFile("README.md", generateMarkdown(response), function (err) {
     if (err) throw err;
   });
