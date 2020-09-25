@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/icecicle04/Great-README-Generator/issues"
   },
-  "homepage": "https://github.com/icecicle04/Great-README-Generator#readme"
+  "homepage": "https://github.com/icecicle04/Great-README-Generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "util": "^0.12.3"
+  }
 }
