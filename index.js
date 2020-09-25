@@ -11,6 +11,13 @@ const generateMarkdown = require("/Users/ak/gt-ft/sandbox/homework/Great-README-
 // array of questions for user
 const questionsArray = [
   { type: "input", message: "Title", name: "title" },
+  {
+    type: "input",
+    message: "Badge label",
+    name: "label",
+  },
+  { type: "input", message: "Badge message", name: "message" },
+  { type: "input", message: "Badge color", name: "color" },
   { type: "input", message: "Description", name: "description" },
   {
     type: "checkbox",
