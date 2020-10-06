@@ -1,7 +1,7 @@
-# Greatest ReadME Ever Made
-  ![<ALT>](https://img.shields.io/badge/Node-NPM-blue)
+# Note Taker Application
+  ![<ALT>](https://img.shields.io/badge/Express/Node/JS-Heroku-blue)
   ## Description 
-  This application is going to generate a Readme based off of user input.
+  An application that can be used to write, save, and delete notes. This application uses an express backend to save and retrieve note data from a JSON file.
   ## Table of Contents
    - Installation
    - Usage
@@ -10,14 +10,14 @@
    - Tests
    - Questions
   ## Installation
-  Download my repo from GitHub link is github.com/icecicle04. From there run node index.js and input your answers.
+  Follow the link here - https://note-taker-02.herokuapp.com/
   ## Usage
-  Is going to be for generating a Readme.md file. 
+  Great for daily notes
   ## Licenses
-  NPM, Node.js
+  MIT License
   ## Contributors
-  Ali Khan
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
   ## Tests
-  1.0.0 version for success
+  Tested to work on Heroku
   ## Questions
-  If you have any questions reach out to Ali @ icecicle04@gmail.com
+  Email Ali @ Icecicle04@gmail.com
